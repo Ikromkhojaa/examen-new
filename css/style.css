@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 16px; }
+
+html {
+  font-family: sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+.btn {
+  margin: 0;
+  padding: 10px 32px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #FFA149;
+  transition: all .3s linear; }
+  .btn:hover {
+    background: #e4750d; }
+
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px; }
+  .container .header .logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333333;
+    display: flex;
+    align-items: center; }
+    .container .header .logo-img {
+      margin-right: 10px; }
+  .container .header .nav-list {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333333;
+    margin-right: 60px;
+    transition: all .3s linear; }
+    .container .header .nav-list:hover {
+      color: black; }
+
+.title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 140%;
+  color: #222222; }
+
+.title-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #555555;
+  margin-top: 20px; }
+
+.container .row {
+  position: relative; }
+  .container .row .top-list {
+    position: absolute;
+    bottom: 80px;
+    left: 158px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background: white; }
+    .container .row .top-list__item {
+      max-width: 890px;
+      width: 200px;
+      height: 100px;
+      border: 1px solid #dedede;
+      padding: 36px 10px; }
+      .container .row .top-list__item a .fas {
+        margin-left: 30px; }
+    .container .row .top-list .top-list__item-btn {
+      padding: 28px 26px !important; }
+  .container .row .top-img {
+    width: 570px;
+    height: 540px;
+    object-fit: cover;
+    overflow: hidden; }
+.container .top-section {
+  margin-top: 6rem;
+  display: flex; }
+
+.positsion-img {
+  position: relative; }
+  .positsion-img .img-one {
+    position: absolute;
+    right: -200px; }
+
+.bac-color {
+  background: #F9F9F9;
+  margin-top: 100px;
+  height: 730px; }
+  .bac-color .container .title-website {
+    padding-top: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 170%;
+    color: #222222; }
+  .bac-color .container .web-text {
+    width: 740px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #555555; }
+  .bac-color .grid-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); }
+    .bac-color .grid-container .row-grid__box {
+      width: 200px;
+      height: 200px;
+      background: #fff;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all .3s linear; }
+      .bac-color .grid-container .row-grid__box:hover {
+        box-shadow: 5px 3px 10px #aaa6a6;
+        transform: translateY(-5px); }
+      .bac-color .grid-container .row-grid__box .box-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #333333; }
+
+.mini-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 170%;
+  color: #FFA149; }
+
+.container .col-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  border: 1px #dedede; }
+  .container .col-4 a {
+    margin-top: 42px; }
+  .container .col-4 .box-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170%;
+    color: #333333;
+    margin: 24px 0px 10px; }
+  .container .col-4 .box-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #555555; }
+
+.title-two {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 170%;
+  color: #222222; }
+
+.our-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #555555;
+  max-width: 500px; }
+
+/*# sourceMappingURL=style.css.map */
